@@ -1,0 +1,132 @@
+html,body {
+    height: 100%;
+    background: #000000;
+    margin:0px;
+}
+
+.wrap {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+}
+
+.box {
+    margin: 15px;
+    border-radius:20px;
+    background-color: #202020;
+}
+
+.songlist, .playlist {
+    background-color: #202020;
+}
+
+#videowrap{
+    border: 15px solid #202020;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #202020;
+}
+#video{
+    border:0px;
+    border-radius: 10px;
+}
+
+hr{
+    background-color: black;
+    margin: 0px;
+}
+h1{
+    color: white;
+    font-family: Arial;
+    margin: 10px;
+    text-align: center;
+}
+h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.bars{
+    height:280px;
+    display: grid;
+    grid-template-columns: 550px 1fr;
+}
+#copyhere{
+    padding:10px;
+    color:gray;
+    width: 490px;
+    background-color: black;
+    border-radius: 10px;
+    height: 200px;
+    overflow-y: auto;
+}
+#left{
+    padding-left:20px;
+}
+#right{
+    color: gray;
+    font-size:15px;
+    margin: 10px;
+    margin-top: 62px;
+}
+#Search, #remote{
+    margin: 10px;
+    padding: 10px;
+    background-color: #303030;
+    border-radius: 10px;
+}
+
+#Searchgrid {
+    display: grid;
+    grid-template-columns: auto 3px 70px;
+    background: black;
+    border-radius: 5px;
+}
+#generategrid {
+    display: grid;
+    grid-template-columns: 300px 3px 70px;
+    background: black;
+    border-radius: 5px;
+    margin-right: 116px;
+}
+#Searchgrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: black;
+    border-radius: 5px;
+    height: 47px;
+    margin-top:10px;
+}
+
+input, select{
+    background: black;
+    color: white;
+    border: 0px solid black;
+    margin-left: 5px;
+}
+input{
+    height: 45px;
+}
+select{
+    height: 47px;
+}
+button{
+    background: #202020;
+    color: white;
+    border: 0px solid black;
+}
+button:hover{
+    background: black;
+}
+
+#howmanysongslist, #howmanysongssearch{
+    height: 30px;
+    color: gray;
+    text-align: center;
+}
+
+#SearchResult, #PlayList{
+    margin:10px;
+    overflow-y: auto;
+}
