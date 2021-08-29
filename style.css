@@ -9,7 +9,7 @@ html,body {
     margin-right: 10px;
     height: 100%;
     display: grid;
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: auto 375.5px 375.5px;
 }
 
 .box {
@@ -119,7 +119,6 @@ button{
 button:hover{
     background: black;
 }
-
 #howmanysongslist, #howmanysongssearch{
     height: 30px;
     color: gray;
