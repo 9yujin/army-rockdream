@@ -1,3 +1,7 @@
+:focus {
+    outline: none;
+}
+
 html,body {
     height: 100%;
     background: #000000;
@@ -15,17 +19,18 @@ html,body {
 .box {
     margin: 15px;
     border-radius:20px;
-    background-color: #202020;
+    background-color: #101010;
+    height: 907px;
 }
 
 .songlist, .plarea {
-    background-color: #202020;
+    background-color: #101010;
 }
 
 #videowrap{
-    border: 15px solid #202020;
+    border: 15px solid #101010;
     border-radius: 15px 15px 0px 0px;
-    background-color: #202020;
+    background-color: #101010;
 }
 #video{
     border:0px;
@@ -88,7 +93,7 @@ h2{
     grid-template-columns: 300px 3px 70px;
     background: black;
     border-radius: 5px;
-    margin-right: 116px;
+    width: 373px;
 }
 #Searchgrid2{
     display: grid;
@@ -120,7 +125,6 @@ button:hover{
     background: black;
 }
 #howmanysongslist, #howmanysongssearch{
-    height: 30px;
     color: gray;
     text-align: center;
 }
@@ -128,4 +132,57 @@ button:hover{
 #SearchResult, #PlayList{
     margin:10px;
     overflow-y: auto;
+}
+#SearchResult{
+    height: 710px;
+}
+#PlayList{
+    height: 653px;
+}
+.seriesSearchResultChild{
+    display: grid;
+    grid-template-columns: 7px auto 40px;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid gray;
+}
+.mark{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #232323;;
+    border-radius: 5px 0px 0px 5px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    font: Arial;
+    font-size: 14px;
+}
+
+#seriesResultChild {
+    overflow: hidden;
+    text-overflow: ellipsis;;
+    white-space: nowrap;;
+}
+
+.nowplaying {
+    color: lightgreen !important;
+}
+
+b{
+    cursor: default;
+    margin-top: 18px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#title{
+    color: white;
+}
+#singer{
+    color: gray;
 }

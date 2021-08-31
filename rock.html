@@ -21,7 +21,7 @@
             <div class= "box main">
                 <div id= "videowrap">
                     <div id="video" class="jwplayer jw-reset jw-state-paused jw-stretch-uniform jw-breakpoint-4 jw-floating-dismissible jw-flag-user-inactive" tabindex="0" aria-label="Video Player" role="application" 
-                        style="width: 1024px; height: 576px;">
+                        style="margin: 0 auto; width: 1024px; height: 600px; background-color: black;">
                     </div>
                 </div> 
                 <hr>
@@ -34,7 +34,7 @@
                         <div id="generategrid">
                             <input id="listnameInput" onkeyup="playlistenterkey()" placeholder="생성할 이름" style="padding: 0px;">
                             <div style="background-color: black;"></div>
-                            <button style="height: 45px; padding: 0px;" id="fxxk" onclick="getlistarr()">생성하기</button>
+                            <button style="height: 45px; padding: 0px; border-radius: 0px 5px 5px 0px;" id="fxxk" onclick="getlistarr()">생성하기</button>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div id="Searchgrid">
                         <input id="SearchInput" placeholder="노래제목, 가수 검색" value="">
                         <div style="background-color: black;"></div>
-                        <button onclick="searchButton(true)">검색</button>
+                        <button style="border-radius: 0px 5px 5px 0px" onclick="searchButton(true)">검색</button>
                     </div>
                 </div>
                 <div id="SearchResult">
@@ -65,13 +65,13 @@
                             </select>
                             <script>loadname()</script>
                             <div style="background: black;"></div>
-                            <button onclick="seasrchButton(false)">불러오기</button>
+                            <button style="border-radius: 0px 5px 5px 0px" onclick="searchButton(false)">불러오기</button>
                         </div>
                         <div id="Searchgrid2">
-                            <button style="color: #303030;" onclick="">셔플</button>
+                            <button style="border-radius: 5px 0px 0px 5px"onclick="">셔플</button>
                             <button onclick="resetPlayList()">전체삭제</button>
                             <button onclick="previoussong()">이전곡</button>
-                            <button onclick="nextsong()">다음곡</button>
+                            <button style="border-radius: 0px 5px 5px 0px"onclick="nextsong()">다음곡</button>
                         </div>
                     </div>
                     <div id="PlayList">
